@@ -8,7 +8,7 @@ function NavBar() {
     <div className='nav'>
       <img src={logoImage} alt="Logo" />
       <NavLink className='link' activeClassName='active-link' to={"/contact"}>Contact Us</NavLink>
-      <NavLink className='link' activeClassName='active-link' to={"/projects"}>Projects</NavLink>
+      <NavLink className='link' activeClassName='active-link' to={"/project"}>Projects</NavLink>
       <NavLink className='link' activeClassName='active-link' to={"/skills"}>Skills</NavLink>
       <NavLink className='link' activeClassName='active-link' to={"/about"}>About</NavLink>
       <NavLink className='link' activeClassName='active-link' to={"/"}>Home</NavLink>
